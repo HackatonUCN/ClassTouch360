@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "895671651781",
+    "project_id": "classtouch360",
+    "storage_bucket": "classtouch360.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895671651781:android:86637063b89e73ead08fac",
+        "android_client_info": {
+          "package_name": "com.example.classtouch360"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895671651781-tus2pn6h5jfekj4ob09b4b9qdei98hq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.classtouch360",
+            "certificate_hash": "1fb062f807a5b2ab7097f929ac60cc55a5ee2e9e"
+          }
+        },
+        {
+          "client_id": "895671651781-vom2u81dru56afpi64dv2sd9qqdu8kta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFv7TgvvaqVHQsHR-4dlNu9FZF6GygZjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895671651781-vom2u81dru56afpi64dv2sd9qqdu8kta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

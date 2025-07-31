@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_inicio"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/bottom_nav_utilidades"
+        android:title="Utilidades"
+        android:icon="@drawable/ic_tools" />
+    <item
+        android:title=""
+        android:enabled="false" /> <!-- enabled="false" para que no sea seleccionable -->
+
+    <item
+        android:id="@+id/bottom_nav_ayuda"
+        android:title="Ayuda"
+        android:icon="@drawable/ic_help" />
+
+    <item
+        android:id="@+id/bottom_nav_ajustes"
+        android:title="Ajustes"
+        android:icon="@drawable/ic_settings" />
+
+</menu>

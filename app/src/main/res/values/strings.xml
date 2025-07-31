@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ClassTouch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="client_id">895671651781-vom2u81dru56afpi64dv2sd9qqdu8kta.apps.googleusercontent.com</string>
+
+
+    --- HomeActivity -->
+    <string name="home">Inicio</string>
+    <string name="actions">Acciones</string>
+    <string name="students_list_title">Lista de Estudiantes</string>
+    <string name="students_list_description">Gestión de clases y alumnos</string>
+    <string name="take_attendance_title">Tomar Asistencia</string>
+    <string name="take_attendance_description">Registra quién asistió</string>
+    <string name="grade_evaluations_title">Calificar Evaluaciones</string>
+    <string name="grade_evaluations_description">Registra notas y evaluaciones</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_classes">Clases</string>
+    <string name="menu_students">Estudi</string>
+    <string name="menu_grading">Califica</string>
+    <string name="menu_attendance">Asistencia</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+</resources>

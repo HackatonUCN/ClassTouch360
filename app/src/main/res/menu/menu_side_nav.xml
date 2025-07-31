@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio" />
+    </group>
+
+    <item android:title="Gestión de Clases">
+        <menu>
+            <item
+                android:id="@+id/nav_lista_clases_estudiantes"
+                android:icon="@drawable/ic_students"
+                android:title="Estudiantes y Clases" />
+            <item
+                android:id="@+id/nav_asistencias"
+                android:icon="@drawable/ic_attendance"
+                android:title="Tomar Asistencia" />
+            <item
+                android:id="@+id/nav_calificaciones"
+                android:icon="@drawable/ic_grading"
+                android:title="Calificaciones" />
+        </menu>
+    </item>
+
+    <item android:title="Herramientas y Utilidades">
+        <menu>
+            <item
+                android:id="@+id/nav_calculadora"
+                android:icon="@drawable/ic_calculator"
+                android:title="Calculadora" />
+            <item
+                android:id="@+id/nav_block_notas"
+                android:icon="@drawable/ic_note"
+                android:title="Block de Notas" />
+            <item
+                android:id="@+id/nav_recordatorios"
+                android:icon="@drawable/ic_reminder"
+                android:title="Recordatorios" />
+            <item
+                android:id="@+id/nav_ruleta_estudiantes"
+            android:icon="@drawable/ic_group"
+            android:title="Ruleta de Estudiantes" />
+            <item
+                android:id="@+id/nav_temporizador"
+                android:icon="@drawable/ic_timer"
+                android:title="Temporizador" />
+            <item
+                android:id="@+id/nav_recursos"
+                android:icon="@drawable/ic_resources"
+                android:title="Recursos Adicionales" />
+        </menu>
+    </item>
+
+    <item android:title="Configuración y Ayuda">
+        <menu>
+            <item
+                android:id="@+id/nav_ajustes"
+                android:icon="@drawable/ic_settings"
+                android:title="Ajustes de la App" />
+            <item
+                android:id="@+id/nav_ayuda"
+                android:icon="@drawable/ic_help"
+                android:title="Centro de Ayuda" />
+            <item
+                android:id="@+id/nav_acerca_de"
+                android:icon="@drawable/ic_about"
+                android:title="Acerca de ClassTouch360" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/ic_logout"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>

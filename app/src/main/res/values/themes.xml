@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!-- Tema base de la app -->
+<style name="Base.Theme.ClassTouch360" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <!-- Colores principales -->
+
+    <item name="colorPrimary">@color/colorPrimary</item>
+
+    <item name="colorOnPrimary">@color/white</item>
+
+
+
+    <item name="colorSecondary">@color/colorSecondary</item>
+
+    <item name="colorOnSecondary">@color/white</item>
+
+
+
+    <item name="colorTertiary">@color/colorTertiary</item>
+
+    <item name="colorOnTertiary">@color/white</item>
+
+
+
+    <!-- Fondo -->
+
+    <item name="android:colorBackground">@color/colorBackground</item>
+
+    <item name="colorOnBackground">@color/textPrimary</item>
+
+
+
+    <!-- Superficie (cardviews, bottom nav, toolbar, etc.) -->
+
+    <item name="colorSurface">@color/colorSurface</item>
+
+    <item name="colorOnSurface">@color/textPrimary</item>
+
+
+
+    <!-- Accents e indicadores -->
+
+    <item name="colorAccent">@color/colorAccent</item>
+
+
+
+    <!-- Control colors (toolbar icons, nav items, etc.) -->
+
+    <item name="android:navigationBarColor">@color/colorSurface</item>
+
+    <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+
+
+    <!-- Elevación y estilo general -->
+
+    <item name="android:windowBackground">@color/colorBackground</item>
+
+    <item name="android:windowLightStatusBar">false</item> <!-- iconos blancos si es oscuro -->
+
+
+
+    <!-- Tipografía -->
+
+    <item name="android:textColorPrimary">@color/textPrimary</item>
+
+    <item name="android:textColorSecondary">@color/textSecondary</item>
+
+</style>
+
+    <style name="DialogAnimation">
+
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+</style>
+<!-- Tema de la app -->
+<style name="Theme.ClassTouch360" parent="Base.Theme.ClassTouch360" />
+<style name="fab_3_rounded">
+    <item name="cornerSize">50%</item>
+</style>
+
+</resources>

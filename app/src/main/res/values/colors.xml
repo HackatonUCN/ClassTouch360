@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <!-- Colores principales -->
+        <color name="colorPrimary">#4A6192</color>         <!-- Slate Blue oscuro -->
+        <color name="colorPrimaryDark">#2E3A59</color>     <!-- Charcoal -->
+        <color name="colorAccent">#A3B18A</color>          <!-- Verde oliva suave -->
+
+        <!-- Colores secundarios -->
+        <color name="colorSecondary">#6C7A89</color>       <!-- Azul grisáceo -->
+        <color name="colorTertiary">#3B3B58</color>        <!-- Dusty Purple -->
+
+        <!-- Fondo y superficies -->
+        <color name="colorBackground">#F4F4F4</color>       <!-- Fondo claro -->
+        <color name="colorSurface">#FFFFFF</color>          <!-- Tarjetas / cajas -->
+
+        <!-- Texto -->
+        <color name="textPrimary">#1A1A1A</color>           <!-- Texto principal -->
+        <color name="textSecondary">#666666</color>         <!-- Texto secundario -->
+        <color name="textDisabled">#9E9E9E</color>          <!-- Placeholder o deshabilitado -->
+
+        <!-- Colores de estado (opcional) -->
+        <color name="colorSuccess">#6CA6A6</color>          <!-- Éxito / acción positiva -->
+        <color name="colorWarning">#D9B44A</color>          <!-- Advertencia sutil -->
+        <color name="colorError">#D9534F</color>            <!-- Error (elegante, no muy fuerte) -->
+
+    <!-- Enlaces -->
+    <color name="colorLink">#3C6E91</color>             <!-- Azul medio elegante para links -->
+
+    <!-- Borde / separadores -->
+    <color name="colorDivider">#DADADA</color>
+
+    </resources>
+
+
+
